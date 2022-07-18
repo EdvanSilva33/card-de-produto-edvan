@@ -16,7 +16,7 @@
 </head>
 <body>
 <div class="center">
-  <div class="imagen"></div><!--imagem da propaganda-->
+  <div id="imagem" class="imagen"></div><!--imagem da propaganda-->
 
     <div class="text"> 
           <h3> Perfume</h3>
@@ -29,18 +29,17 @@
           <div class="preco"><!---texto e preco-->
             <span class="hpreco">$149.99</span>
             <span class="promocao"> $169.99</span>
-                <button class="btn"> <img src="./images/icon-cart.svg" alt=""> Add to Cart</button><!---botão para selecao-->
+                <button class="btn" onclick="tok()"> <img src="./images/icon-cart.svg" alt=""> Add to Cart</button><!---botão para selecao-->
           </div>
    </div>
 </div><!--div para centralizar-->
  
-
- 
-
- 
-
-  
- 
+<div class="modo">
+  <label for="">
+    <input type="checkbox" class="checkbox">
+    <i class="fa-solid fa-moon"></i>
+  </label>
+</div>
 
   
   
@@ -48,5 +47,20 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="https://www.linkedin.com/in/edvan-silva-pereira">EDVAN CODIGO</a>.
   </div>
+
+<script>
+  function tok(){
+ const Pfume = document.getElementById('imagem');
+ if( Pfume.className === 'imagen'){
+  Pfume.className = 'imag';
+ }else{
+  Pfume.className = 'imagen';
+ }
+
+  }
+
+
+</script>
+
 </body>
 </html>

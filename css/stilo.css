@@ -35,6 +35,16 @@ body{
      border-radius: 15px 0px 0px 15px;
 
 }
+.imag{
+    width: 368px;
+    height: 500px;
+    background-color: aqua;
+     background-image: url("../images/pfma.jpg");
+     background-size:cover;
+     background-repeat: no-repeat;
+     border-radius: 15px 0px 0px 15px;
+
+}
 .text{
     width: 380px;
     padding: 30px;
@@ -114,6 +124,13 @@ body{
      background-image: url("../images/image-product-mobile.jpg");
      background-size: contain;
      border-radius: 10px 10px 0 0;
+
+}
+.imag{
+    width: 353px;
+    height: 247px;
+    
+    
 
 }
 .btn{
